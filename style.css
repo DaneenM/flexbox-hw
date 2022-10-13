@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+header {
+    background-color: #ff9999;
+    min-height: 150px;
+    text-align: center;
+    font-size: 50px;
+}
+
+main {
+    background-color: #b3e8e6 ; 
+    min-height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div:nth-child(1) {
+    flex: 0 0 300px;
+    background-color: beige;
+}
+
+div:nth-child(2) {
+    flex: 1 0 auto;
+    background-color: skyblue;
+}
+
+footer {
+    background-color: #ffff9f;
+    min-height: 200px;
+    text-align: center;
+}
+
+
