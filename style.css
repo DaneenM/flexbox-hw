@@ -1,4 +1,5 @@
 * {
+    /* margin:50px; background-color: white; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,15 +14,17 @@ header {
 }
 
 main {
-    background-color: #b3e8e6 ; 
+    background-color: white ; 
     min-height: 500px;
     display: flex;
     flex-flow: row wrap;
+    margin: 25px;
 }
 
-div:nth-child(1) {
+main > div:nth-child(1) {
     flex: 0 0 300px;
     background-color: beige;
+    margin-right: 25px;
 }
 
 div:nth-child(2) {
